@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$e84zv(6w(nqgv0ma*l4h!t=)dl+#u(81tirwkz%f+oq&32xbq
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -57,6 +57,7 @@ REST_FRAMEWORK = {
         'rest_framework.renderers.JSONRenderer',
     )
 }
+
 
 ROOT_URLCONF = 'abdm_project.urls'
 
